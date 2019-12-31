@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="quiz.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <form class="form-inline">
+            <h2 class="mr-sm-12" id="time">75</h2>
+        </form>
+    </nav>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a href="./quiz.html" class="navbar-brand text-info">Quiz</a>
+        <form class="form-inline">
+            <h2 class="mr-sm-2" id="time"></h2>
+        </form>
+    </nav> 
+    <div class="container">
+        <div class="page-header text-center text-warning ">
+            <h1 id="promptspace">
+                Coding Quiz
+            </h1>
+            <br>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <button id="start" onclick="startQuiz()" type="button" class="btn btn-primary text-warning">
+                    Start Quiz
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>  
+<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
